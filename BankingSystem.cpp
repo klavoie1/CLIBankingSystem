@@ -73,7 +73,6 @@ void DeleteTransaction()
 	TempFile.close();
 
 
-
 	if (rename("C:\\cpluspluscoding\\BankingSystem\\TempFile.txt", "C:\\cpluspluscoding\\BankingSystem\\TransactionFile.txt") == -1)
 		std::cout << "File name change worked!" << std::endl;
 	else
